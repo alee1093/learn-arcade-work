@@ -1,2 +1,2 @@
 
-print(" \" \n newline")
+print(" \" \nyay newline")
