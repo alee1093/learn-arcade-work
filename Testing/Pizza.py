@@ -1,0 +1,20 @@
+import arcade
+arcade.open_window(600,600,"Strange Pizza")
+arcade.set_background_color(arcade.csscolor.DIM_GRAY)
+arcade.start_render()
+
+arcade.draw_triangle_filled(300,50,100,450,500,450,(242,234,119))
+arcade.draw_arc_filled(300,450,400,80,arcade.csscolor.SANDY_BROWN,0,180)
+arcade.draw_circle_filled(250,310,30,(237, 93, 74))
+arcade.draw_circle_filled(350,350,30,(237, 93, 74))
+arcade.draw_circle_filled(310,200,30,(237, 93, 74))
+arcade.draw_lrtb_rectangle_filled(190,210,400,360,(20, 128, 18))
+arcade.draw_lrtb_rectangle_filled(230,250,250,210,(20, 128, 18))
+arcade.draw_lrtb_rectangle_filled(300,320,290,250,(20, 128, 18))
+arcade.draw_lrtb_rectangle_filled(430,450,430,390,(20, 128, 18))
+arcade.draw_circle_filled(300,120,20,(79, 43, 19))
+arcade.draw_circle_filled(250,420,20,(79, 43, 19))
+arcade.draw_circle_filled(380,280,20,(79, 43, 19))
+
+arcade.finish_render()
+arcade.run()

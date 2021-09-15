@@ -1,5 +1,2 @@
-print("Hello World!")
-print("""Hello
-World
-!""")
-print("Hello\nWorld\n!")
+
+print(" \" \n newline")
