@@ -14,7 +14,7 @@ arcade.draw_lrtb_rectangle_filled(300,320,290,250,(20, 128, 18))
 arcade.draw_lrtb_rectangle_filled(430,450,430,390,(20, 128, 18))
 arcade.draw_circle_filled(300,120,20,(79, 43, 19))
 arcade.draw_circle_filled(250,420,20,(79, 43, 19))
-arcade.draw_circle_filled(380,279,20,(79, 43, 19))
+arcade.draw_circle_filled(380,280,20,(79, 43, 19))
 
 arcade.finish_render()
 arcade.run()
