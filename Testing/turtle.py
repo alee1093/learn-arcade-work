@@ -1,5 +1,5 @@
 import arcade
-arcade.open_window(600,600,"Turtle")
+arcade.open_window(600,600,"Tortal")
 arcade.set_background_color(arcade.csscolor.LIGHT_GOLDENROD_YELLOW)
 
 arcade.start_render()
@@ -41,7 +41,10 @@ arcade.draw_ellipse_filled(340,373,35,25,(255,255,255),0,180)
 arcade.draw_ellipse_filled(325,365,40,35,(32,96,32),0,180)
 arcade.draw_ellipse_filled(420,330,20,30,(255,255,255),0,180)
 arcade.draw_ellipse_filled(415,330,25,40,(32,96,32),0,180)
-arcade.draw_circle_filled(425,338,3,(255,255,255))
+arcade.draw_circle_filled(center_x=425,
+                          center_y=338,
+                          radius=3,
+                          color=(255,255,255))
 arcade.draw_ellipse_filled(345,347,15,7,(255,255,255),0,180)
 arcade.draw_circle_filled(166,295,7,arcade.csscolor.BLACK)
 arcade.draw_circle_filled(167,296,3,arcade.csscolor.WHITE)
