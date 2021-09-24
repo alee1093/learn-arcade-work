@@ -48,7 +48,7 @@ arcade.draw_circle_filled(center_x=425,
 arcade.draw_ellipse_filled(345,347,15,7,(255,255,255),0,180)
 arcade.draw_circle_filled(166,295,7,arcade.csscolor.BLACK)
 arcade.draw_circle_filled(167,296,3,arcade.csscolor.WHITE)
-arcade.draw_text("Turtllini",
+arcade.draw_text("Turtllini the Turtle",
                  250, 100,
                  arcade.color.PISTACHIO, 24)
 arcade.finish_render()
