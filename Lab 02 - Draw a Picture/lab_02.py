@@ -5,16 +5,16 @@ arcade.set_background_color(arcade.csscolor.BLACK)
 arcade.start_render()
 
 # coloring layers of water + boat base
-arcade.draw_lrtb_rectangle_filled(0, 600, 175, 135, (0, 62, 179)) #lighter blue (layer 7)
-arcade.draw_lrtb_rectangle_filled(0, 600, 205, 175, (0, 68, 204)) #even lighter blue (layer 8)
-arcade.draw_lrtb_rectangle_filled(0, 600, 220, 195, (0, 77, 230)) #lightest blue (layer 9)
-arcade.draw_ellipse_filled(300, 200, 500, 150, (102, 53,0))
-arcade.draw_lrtb_rectangle_filled(0, 600, 20, 10, (0, 9, 26)) #darkest blue (layer 1)
-arcade.draw_lrtb_rectangle_filled(0, 600, 35, 20, (0, 18, 51)) #darker blue (layer 2)
-arcade.draw_lrtb_rectangle_filled(0, 600, 45, 35, (0, 27, 77)) #dark blue (layer 3)
-arcade.draw_lrtb_rectangle_filled(0, 600, 70, 45, (0, 36, 102)) #medium dark blue (layer 4)
-arcade.draw_lrtb_rectangle_filled(0, 600, 100, 70, (0, 45, 128)) #darkish blue (layer 5)
-arcade.draw_lrtb_rectangle_filled(0, 600, 135, 100, (0, 54, 153)) #medium blue
+arcade.draw_lrtb_rectangle_filled(0, 600, 175, 135, (0, 62, 179)) # lighter blue (layer 7)
+arcade.draw_lrtb_rectangle_filled(0, 600, 205, 175, (0, 68, 204)) # even lighter blue (layer 8)
+arcade.draw_lrtb_rectangle_filled(0, 600, 220, 195, (0, 77, 230)) # lightest blue (layer 9)
+arcade.draw_ellipse_filled(300, 200, 500, 150, (102, 53,0)) # boat base
+arcade.draw_lrtb_rectangle_filled(0, 600, 20, 10, (0, 9, 26)) # darkest blue (layer 1)
+arcade.draw_lrtb_rectangle_filled(0, 600, 35, 20, (0, 18, 51)) # darker blue (layer 2)
+arcade.draw_lrtb_rectangle_filled(0, 600, 45, 35, (0, 27, 77)) # dark blue (layer 3)
+arcade.draw_lrtb_rectangle_filled(0, 600, 70, 45, (0, 36, 102)) # medium dark blue (layer 4)
+arcade.draw_lrtb_rectangle_filled(0, 600, 100, 70, (0, 45, 128)) # darkish blue (layer 5)
+arcade.draw_lrtb_rectangle_filled(0, 600, 135, 100, (0, 54, 153)) # medium blue
 
 # creating stars
 arcade.draw_circle_filled(1, 550, 3, (255, 255, 153))
@@ -134,5 +134,6 @@ arcade.draw_polygon_filled(((202, 238),
                             ),
                            (255, 255, 255))
 
+# conclusion
 arcade.finish_render()
 arcade.run()
