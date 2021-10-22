@@ -53,7 +53,7 @@ draw_pattern(100, -50)
 draw_circle(300, 300, 30)
 
 
-# finish
+# conclusion
 
 arcade.finish_render()
 arcade.run()
