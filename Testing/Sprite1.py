@@ -74,14 +74,16 @@ def on_draw(delta_time):
     on_draw.hat += 1
     on_draw.body += 1
     on_draw.shoes += 1
+    if on_draw.head == 100:
+        arcade.finish_render()
 
 
-on_draw.miscellaneous = 10
-on_draw.head= 10
-on_draw.mustache = 10
-on_draw.hat = 10
-on_draw.body = 10
-on_draw.shoes = 10
+on_draw.miscellaneous = -100
+on_draw.head= -100
+on_draw.mustache = -100
+on_draw.hat = -100
+on_draw.body = -100
+on_draw.shoes = -100
 
 
 def main():

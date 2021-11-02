@@ -163,7 +163,7 @@ def on_draw(delta_time):
     on_draw.boat_x += 1
 
 # setting initial coordinates
-on_draw.boat_x = -300
+on_draw.boat_x = -600
 
 
 def main():
