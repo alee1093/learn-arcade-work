@@ -26,19 +26,31 @@ for row in range(10):
     print("")
 print("")
 
-for row in range(5):
-    for column in range(20):
+row = 0
+while row < 5:
+    column = 0
+    while column < 20:
         print("* ", end="")
+        column += 1
+    row += 1
     print("")
 print("")
 
-for row in range(10):
-    for column in range(10):
+row = 0
+while row < 10:
+    column = 0
+    while column < 10:
         print(column, " ", end="")
+        column += 1
+    row += 1
     print("")
 print("")
 
-for row in range(10):
-    for column in range(10):
+row = 0
+while row < 10:
+    column = 0
+    while column < 10:
         print(row, " ", end="")
+        column += 1
+    row += 1
     print("")
