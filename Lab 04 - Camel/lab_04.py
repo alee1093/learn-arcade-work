@@ -2,6 +2,7 @@
 import random
 
 
+# defining main code
 def main():
     """main code --> runs game"""
     guards_distance = 20  # records player's distance from gummy guards
@@ -179,4 +180,5 @@ def main():
                 print("> Jackpot!")
 
 
+# run code
 main()
